@@ -1,5 +1,5 @@
 {
-  "name": "nux-ui",
+  "name": "@nux-union/nux-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
