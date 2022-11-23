@@ -1,6 +1,6 @@
 "use strict";
+Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
 const index = require("./button/index.js");
-const components = {
-  Button: index
-};
-module.exports = components;
+const components = [index];
+exports.Button = index;
+exports.default = components;

@@ -1,12 +1,12 @@
 import components from './src/index'
 export * from './src/index'
 import { App } from 'vue'
-const componentsArr: any[] = [];
-for(let key in components) {
-  componentsArr.push(components[key]);
-}
+// const componentsArr: any[] = [];
+// for(let key in components) {
+//   componentsArr.push(components[key: string]);
+// }
 export default {
   install: (app: App) => {
-    componentsArr.forEach(c => app.use(c));
+    components.forEach(c => app.use(c));
   }
 }

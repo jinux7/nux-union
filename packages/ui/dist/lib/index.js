@@ -1,12 +1,11 @@
 "use strict";
-const index$1 = require("./index2.js");
-const componentsArr = [];
-for (let key in index$1) {
-  componentsArr.push(index$1[key]);
-}
+Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
+const index$2 = require("./index2.js");
+const index$1 = require("./button/index.js");
 const index = {
   install: (app) => {
-    componentsArr.forEach((c) => app.use(c));
+    index$2.default.forEach((c) => app.use(c));
   }
 };
-module.exports = index;
+exports.Button = index$1;
+exports.default = index;

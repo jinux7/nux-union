@@ -1,5 +1,6 @@
 import Button from "./button";
 
-export default {
+export {
   Button
 }
+export default [ Button ]

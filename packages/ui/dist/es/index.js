@@ -1,13 +1,11 @@
 import components from "./index2.js";
-const componentsArr = [];
-for (let key in components) {
-  componentsArr.push(components[key]);
-}
+import { default as default2 } from "./button/index.js";
 const index = {
   install: (app) => {
-    componentsArr.forEach((c) => app.use(c));
+    components.forEach((c) => app.use(c));
   }
 };
 export {
+  default2 as Button,
   index as default
 };
